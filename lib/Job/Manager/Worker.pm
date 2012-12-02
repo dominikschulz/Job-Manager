@@ -16,7 +16,7 @@ use Sys::Run;
 
 has 'config' => (
     'is'       => 'ro',
-    'isa'      => 'Config::Tree',
+    'isa'      => 'Config::Yak',
     'required' => 0,
 );
 
